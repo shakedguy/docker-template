@@ -5,6 +5,8 @@ This is a simple example of how to dockerize a python and nodejs application.
 ### Requirements
 
 - [Docker](https://docs.docker.com/installation/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker Machine](https://docs.docker.com/machine/install-machine/)
 
 ### Usage
 
