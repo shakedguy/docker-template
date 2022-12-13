@@ -7,6 +7,11 @@ This is a simple example of how to dockerize a python and nodejs application.
 - [Docker](https://docs.docker.com/installation/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [Docker Machine](https://docs.docker.com/machine/install-machine/)
+- [Python](https://www.python.org/downloads/)
+- [Nodejs](https://nodejs.org/en/download/)
+- [Npm](https://www.npmjs.com/get-npm)
+- [yarn](https://yarnpkg.com/en/docs/install)
+- [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 
 ### Usage
 
