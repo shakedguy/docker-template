@@ -1,0 +1,23 @@
+# Ignore node_modules
+/node_modules
+*/node_modules
+*/node_modules/*
+
+# Ignore .env
+.env
+*.env.*
+
+# Ignore venv
+venv
+*/venv
+*/venv/*
+
+# Ignore .vscode
+.vscode
+*/.vscode
+*/.vscode/*
+
+# Ignore lock files
+*/yarn.lock
+*/package-lock.json
+
