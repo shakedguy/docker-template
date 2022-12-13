@@ -18,6 +18,6 @@ This is a simple example of how to dockerize a python and nodejs application.
 
 - Run the docker image
 
-```
-  docker run -it --rm dockerize-python-nodejs
-```
+  ```
+    docker run -it --rm dockerize-python-nodejs
+  ```
