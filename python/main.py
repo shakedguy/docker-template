@@ -18,3 +18,6 @@ if __name__ == '__main__':
     print('node script output:')
     print(out)
     print('############################################################')
+
+
+input = input("Press any key to exit...")

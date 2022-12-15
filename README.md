@@ -27,3 +27,15 @@ This is a simple example of how to dockerize a python and nodejs application.
   ```
     docker run -it --rm dockerize-python-nodejs
   ```
+
+- Run the docker image with docker-compose
+
+  ```
+    docker-compose up
+  ```
+
+- Interactive with the docker container with bash
+
+```
+    docker exec -it docker-template-container bash
+```

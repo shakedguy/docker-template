@@ -1,7 +1,11 @@
+import express from 'express';
 import { spawn } from 'child_process';
 import { argv } from 'process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+const server = express();
+const PORT = 3000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,4 +25,8 @@ process.stdout.on('data', (chunk) => {
 	console.log('python script output:');
 	console.log(textChunk.replace(/(\r\n|\n|\r)/gm, ''));
 	console.log('------------------------------------------------------------');
+});
+
+server.listen(PORT, () => {
+	console.log(`Server listening on port ${PORT}`);
 });

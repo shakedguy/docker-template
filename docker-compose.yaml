@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  app:
+    container_name: docker-template-container
+    ports:
+      - '3000:3000'
+
+    expose:
+      - '3000'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-template-image
+    volumes:
+      - '.:/app'
